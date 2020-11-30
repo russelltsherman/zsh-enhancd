@@ -74,11 +74,11 @@ __enhancd::init::init()
 
     # Remove fish sources
     if [[ -d "$ENHANCD_ROOT"/functions ]]; then
-        rm -rfd "$ENHANCD_ROOT"/functions
+        rm -rf "$ENHANCD_ROOT"/functions
     fi
 
     if [[ -d "$ENHANCD_ROOT"/conf.d ]]; then
-        rm -rfd "$ENHANCD_ROOT"/conf.d
+        rm -rf "$ENHANCD_ROOT"/conf.d
     fi
 
     if [[ -f "$ENHANCD_ROOT"/init.fish ]]; then
